@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+    <form method="get" action="results.html">
+        <label for="firstname">Imię:</label><br>
+        <input type="text" name="firstname" id="firstname" placeholder="Wpisz imię..." required><br><br>
+        <label for="surname">Nazwisko:</label><br>
+        <input type="text" name="surname" id="surname" placeholder="Wpisz nazwisko..." required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="Wpisz swój email..." required><br><br>
+        <label for="pass">Hasło:</label><br>
+        <input type="password" name="pass" id="pass" placeholder="Wpisz hasło..." required><br><br>
+        <p>Jakie jest Twoje hobby?</p>
+        <input type="checkbox" id="music" name="hobby" value="music" checked> 
+        <label>Muzyka</label><br><br>
+        <input type="checkbox" id="sport" name="hobby" value="sport"> 
+        <label>Sport</label><br><br>
+        <input type="checkbox" id="travel" name="hobby" value="travel"> 
+        <label>Podróże</label><br><br>
+        <p>Lubię:</p>
+        <input type="radio" id="sun" value="sun" name="weather">
+        <label for="sun">Słońce</label><br>
+        <input type="radio" id="rain" value="rain" name="weather">
+        <label for="rain">Deszcz</label><br>
+        <input type="radio" id="snow" value="snow" name="weather">
+        <label for="snow">Śnieg</label><br><br>
+        <label for="food">Lubię jeść:</label>
+        <select id="food" name="food">
+            <option value="makaron">makaron</option>
+            <option value="chleb" selected>chleb</option>
+            <option value="mleko">mleko</option>
+            <option value="pizza">pizza</option>
+        </select><br><br>
+        <label for="message">Napisz do nas wiadomość:</label><br>
+        <textarea rows="10" cols="20" id="message" name="message" placeholder="Wpisz tu treść wiadomości"></textarea><br><br>
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="Wyczyść">
+        <!-- <button>Wyślij</button> -->
+    </form>
+</body>
+</html>
