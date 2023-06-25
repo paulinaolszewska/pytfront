@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    background-color: antiquewhite;
+    /* flex-direction: row-reverse; */
+    justify-content:space-evenly;
+    /* flex-direction: column;
+    height: 500px;
+    width: 200px; */
+    list-style: none;
+    align-items: center;
+    height: 150px;
+    flex-wrap: wrap;
+} 
+.menu li{
+    width:30%;
+}
+.menu a{
+    text-transform: uppercase;
+}

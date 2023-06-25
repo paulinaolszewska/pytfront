@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.box{
+    margin:20px;
+    padding:20px;
+    border:1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: aqua;
+    overflow: hidden;
+    text-align: center;
+    /* wyśrodkowanie jedej linii tekstu w osi y */
+    /* line-height: 300px; */
+   }
+
+.btn{
+    /* padding-top:20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 15px; */
+    /* padding: 20px 30px 15px 10px; */
+    padding: 15px 20px;
+    margin:0 auto;
+    /* display: none; */
+    display: block;
+    background-color: rgba(169, 172, 175, 0.41);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border:1px solid rgba(169, 172, 175, 0.41);
+    border-radius: 5px;
+    box-shadow: 4px 4px 23px 0px rgba(66, 68, 90, 1);
+}
+a{
+    width:200px;
+    height:200px;
+    background-color: bisque;
+    padding: 10px 15px;
+    margin:10px;
+    /* display: none;*/
+} 
+.image-container{
+    background-image: url("images/coffee.jpg");
+    width: 50%;
+    height: 500px;
+    margin:30px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* contain-wyświetlenie całego zdjęcia w tle bez przycinania, niekoniecznie zapełniając cały kontener
+    cover-zakrycie całego kontenera zdjęciem, jak najmniej je przycinając */
+    background-size: cover;
+}
+.container{
+    width:70vw;
+    background-color: rgba(255, 227, 194, 0.5);
+    /* opacity:0.5; */
+}
+

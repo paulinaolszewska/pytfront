@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 300vh;
+}
+.text-with-logo{
+    margin-left: 150px;
+    margin-top:300px;
+    position: relative;
+
+    
+}
+.text-with-logo::before{
+    content: url('favi.png');
+    /* width:30%;
+    display:block; */
+    position:absolute;
+    left:0;
+    top:0;
+}
+.black-box{
+    height: 200px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top:50%;
+}

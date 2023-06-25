@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+p{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt2,.txt3,.txt4{
+    display:none;
+}
+@media screen and (min-width:381px) and (max-width:600px){
+.txt1{
+    display:none;
+}
+.txt2{
+    display:block;
+}
+body{
+    background-color: red;
+}
+}
+@media screen and (min-width:601px) and (max-width:1000px){
+    .txt2,.txt1{
+        display:none;
+    }
+    .txt3{
+        display:block;
+    }
+    body{
+        background-color: yellow;
+    }
+    }
+    @media screen and (min-width:1001px){
+        .txt3,.txt1{
+            display:none;
+        }
+        .txt4{
+            display:block;
+        }
+        body{
+            background-color: green;
+        }
+        }
